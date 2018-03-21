@@ -68,10 +68,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	<scm>
-    <url>https://github.com/doradojl/OTX-Java-SDK</url>
-    <connection>scm:git@github.com:doradojl/OTX-Java-SDK.git</connection>
-    <developerConnection>scm:git:git@github.com:doradojl/OTX-Java-SDK.git</developerConnection>
-    <tag>v${project.version}</tag>
-  </scm>
 </project>
