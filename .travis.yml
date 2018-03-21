@@ -1,5 +1,7 @@
 language: java
-script: mvn install -DskipTests
+script:
+  - mvn versions:set -DnewVersion=0.1.${TRAVIS_BUILD_NUMBER} scm:tag
+  - mvn install -DskipTests
 env:
   global:
   - secure: BCJzPSsG/wijzc0KM88zGGzX6BgkJGvjfKUcT/gndOKu3+4T+qUjmM6TnRa2kDavQwDJA0fFU+tInRKJmbWrgxrmIomz/E63g+wlunQCkfUuAozm6OMRFoo1q1Buu/vbI/4HMALFTH8NG4b4AfpgNztvuz7gj8Kkye3ZZ+PVAzY=
